@@ -10,6 +10,8 @@ const path = require("path");
 const app = express();
 var bodyParser = require("express");
 const oracledb = require('oracledb');
+oracledb.initOracleClient({ libDir: 'C:\Users\lisah\Downloads\instantclient-basic-windows.x64-21.9.0.0.0dbru\instantclient_21_9' });
+
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
