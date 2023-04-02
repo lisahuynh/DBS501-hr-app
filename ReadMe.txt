@@ -1,6 +1,7 @@
 1. Install Oracle Instant Client - Basic
 	- download 'https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html' Basic package
 	- extract folder
+	- set PATH environment to the Oracle Instant Client directory
 2. Install Node.js files
 	- open terminal and execute the following installations:
 		- npm install express
