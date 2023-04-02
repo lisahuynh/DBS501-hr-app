@@ -2,7 +2,7 @@
 Students: Lisa Huynh and Brenda Yu
 Date: March 31, 2023 */
 
-var HTTP_PORT = process.env.PORT || 8080;
+var HTTP_PORT = process.env.PORT || 3000;
 
 const express = require("express");
 const exphbs = require('express-handlebars');
